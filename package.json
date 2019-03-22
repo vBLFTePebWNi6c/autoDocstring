@@ -2,7 +2,7 @@
     "name": "autodocstring",
     "displayName": "autoDocstring",
     "description": "Generates python docstrings",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "publisher": "njpwerner",
     "license": "SEE LICENSE IN LICENSE",
     "icon": "images/icon.png",
@@ -68,7 +68,8 @@
                         "default",
                         "google",
                         "sphinx",
-                        "numpy"
+                        "numpy",
+                        "pycharm"
                     ],
                     "description": "Which docstring format to use."
                 },

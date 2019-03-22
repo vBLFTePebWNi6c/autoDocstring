@@ -20,6 +20,7 @@ Visual Studio Code extension to quickly generate docstrings for python functions
 * Google
 * Numpy
 * Sphinx
+* PyCharm
 * PEP0257 (coming soon)
 
 ## Usage

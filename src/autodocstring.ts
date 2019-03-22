@@ -28,6 +28,10 @@ export class AutoDocstring {
                 this.docstringFactory = new factories.NumpyFactory(this.quoteStyle);
                 break;
 
+            case "pycharm":
+                this.docstringFactory = new factories.PyCharmFactory(this.quoteStyle);
+                break;
+
             default:
                 this.docstringFactory = new factories.DefaultFactory(this.quoteStyle);
         }
